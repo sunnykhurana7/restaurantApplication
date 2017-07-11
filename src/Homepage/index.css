@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+
+/*font face*/
+@font-face {
+    font-family:'Berkshire Swash', cursive ;
+    src: url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+}
+
+.Banner {
+    width:100%;
+    margin: 0;
+    height: 600px;
+    position: relative;
+}
+
+.Banner img {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+}
+
+.BannerText {
+    position: absolute;
+    top:200px;
+    left: 100px;
+}
+
+.BannerText h1 {
+    font-size: 3.5em;
+    color: #fff;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-family:'Berkshire Swash', cursive;
+}
+
+.BannerText h3 {
+    color: #fff;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.searchBar {
+    position: absolute;
+    color: #fff;
+    left: 100px;
+    top:350px;
+    border: 30px solid rgba(0, 0, 0, 0.55);
+    width:700px;
+}
+
+.searchBar input[type="text"] {
+    background-color: #ffffff;
+    outline:none;
+    height:40px;
+    width:65%;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.searchBar input[type="text"]::-webkit-input-placeholder {
+    padding: 5px;
+}
+
+.searchBar input[type="submit"] {
+    width:33%;
+    padding: 1.5em 1em;
+    background: #f71d16;
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
